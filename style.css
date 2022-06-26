@@ -125,4 +125,11 @@ a:hover {
   .container {
     width: 300px;
   }
+  .figure {
+    max-width: 250px;
+  }
+  .figure img {
+    max-width: 80%;
+    height:auto
+  }
 }
