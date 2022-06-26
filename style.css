@@ -59,6 +59,8 @@ div.card {
   width: 80%;
   padding-top: 2px;
   padding-bottom: 16px;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 a {
