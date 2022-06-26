@@ -9,12 +9,12 @@ body {
 
 h1 {
   font-family: 'Space Mono', monospace;
-  font-size: 250%;
+  font-size: 200%;
   line-height: 80%;
 }
 
 h2 {
-  font-size: 180%;
+  font-size: 150%;
   line-height: normal;
 }
 
@@ -38,6 +38,7 @@ button {
 	border: none;
 	padding: 0.8em, 0.8em;
 	font: inherit;
+  font-weight: bold;
 	cursor: pointer;
 	outline: inherit;
   border-radius: 4px;
@@ -70,6 +71,8 @@ a:hover {
 
 .figure {
   position: relative;
+  margin: auto;
+  max-width: 400px;
 }
 
 .figure img {
@@ -88,12 +91,10 @@ a:hover {
   left: 0;
   bottom: 0;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
+  margin: auto;
   object-fit: contain;
   opacity: 0;
-  transition: opacity .2s;
+  transition: opacity .3s;
 }
 
 .figure:hover img.img-unhide {
@@ -103,6 +104,7 @@ a:hover {
 .figure:hover img.img-tohide {
   opacity: 0;
 }
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
